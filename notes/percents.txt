@@ -1,0 +1,16 @@
+Percents and widths instead of exact fixtures for responsive layouts:
+
+TAKE:
+we want to use percents for responsive layouts to help with the many different screen sizes.
+Percents are better for all screen sizes because they'll adjust according to the percentage of the screen
+On the contrary, exact px & rem for layouts will be the same on an iphone mini and also on a flat screen, which is not responsive friendly
+Moreover exact heights may cause overflow issues that will require a media-query, we can stay of that media-query fix by just not using it.
+
+THOUGHT:
+Think and work responsively to adapt to the different situations that you can run into.
+
+widths:
+a lot of times are not needed to be included in the child element
+
+heights:
+we want to avoid messing with the height of a layout because
