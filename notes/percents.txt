@@ -1,4 +1,5 @@
-Percents and widths instead of exact fixtures for responsive layouts:
+
+// PERCENTS AND WIDTHS SECTION //
 
 TAKE:
 we want to use percents for responsive layouts to help with the many different screen sizes.
@@ -12,5 +13,18 @@ Think and work responsively to adapt to the different situations that you can ru
 widths:
 a lot of times are not needed to be included in the child element
 
+// HEIGHTS SECTION //
+
 heights:
 we want to avoid messing with the height of a layout because
+they cause all sorts of problems
+1. overflow issues
+
+RULE OF THUMB:
+if you need to change the height, don't.
+the web is already responsive.
+use em and rems NOT px.
+
+INSTEAD: 
+for backgrounds:
+- set a padding for more backgrounds in em and rem.
