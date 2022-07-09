@@ -39,6 +39,7 @@ h1 {
 
 .hero__text {
     width: 60%;
+    margin: 0 auto;
 }
 
 .hero p {
@@ -71,6 +72,7 @@ h1 {
 
 .three-col {
     padding: 3em 0;
+    text-align: center;
 }
 
 .three-col h2 {
@@ -78,6 +80,7 @@ h1 {
 }
 
 .two-col {
+    text-align: center;
     padding: 3em 0;
     background-color: #136C72;
     color: #FFF;

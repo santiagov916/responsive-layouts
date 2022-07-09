@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "responsive-layouts",
+			"path": ".."
+		},
+		{
+			"name": "challenge02",
+			"path": "../../../../Downloads/challenge02"
+		},
+		{
+			"name": "challenge01",
+			"path": "../../../../Downloads/challenge01"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "responsive-layouts"
+	}
+}
