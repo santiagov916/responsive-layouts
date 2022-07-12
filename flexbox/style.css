@@ -1,0 +1,145 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --var-light-brown: #F3EED9;
+    --var-dark-brown: #824936;
+    --var-slight-dark: #222C2A;
+}
+
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: var(--var-light-brown);
+}
+
+.hero__titles {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero__subtitle {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-family: 'Roboto';
+    letter-spacing: 10px;
+    color: var(--var-slight-dark);
+}
+
+.hero__title {
+    font-family: 'Playfair display';
+    color: var(--var-dark-brown);
+}
+
+.info {
+    margin: 4rem 0;
+}
+
+.info__header {
+    font-family: 'Playfair display';
+    color: var(--var-dark-brown);
+    text-align: center;
+}
+
+.info__text_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__text {
+    width: 50%;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.info__text_one {
+    padding-right: 2rem;
+}
+
+.section__img {
+    padding: 50px 0;
+    background-color: var(--var-slight-dark);
+    color: #FFF;
+}
+
+.img__text {
+    padding-right: 2rem;
+}
+
+.img__text,
+.img__text_two {
+    align-self: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.img__title {
+    font-family: 'Playfair display';
+}
+
+.img__text p {
+    font-family: 'Roboto';
+}
+
+.img__one,
+.img__two {
+    width: 50%;
+}
+
+.img__two {
+    padding-right: 2rem;
+}
+
+.section__img_two {
+    padding: 50px 0;
+    background-color: var(--var-dark-brown);
+    color: #FFF;
+}
+
+@media (max-width: 680px) {
+    .row {
+        display: block;
+    }
+    .img__one,
+    .img__two {
+        width: 100%;
+    }
+    .img__text,
+    .img__text_two {
+        width: 100%;
+    }
+
+    .info__text_section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .info__text {
+        width: auto;
+    }
+}
+
